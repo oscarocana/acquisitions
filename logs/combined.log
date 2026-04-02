@@ -15,3 +15,6 @@
 {"level":"info","message":"::1 - - [02/Apr/2026:14:58:22 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2026-04-02T14:58:22.252Z"}
 {"level":"info","message":"::1 - - [02/Apr/2026:15:07:05 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2026-04-02T15:07:05.511Z"}
 {"level":"info","message":"::1 - - [02/Apr/2026:15:29:28 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2026-04-02T15:29:28.788Z"}
+{"level":"info","message":"::1 - - [02/Apr/2026:15:29:33 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 166 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2026-04-02T15:29:33.735Z"}
+{"level":"info","message":"User oscar with email email@oscarocana.com up with role user has signed up successfully!","service":"aquisitions-api","timestamp":"2026-04-02T15:29:51.708Z"}
+{"level":"info","message":"::1 - - [02/Apr/2026:15:29:51 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 117 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2026-04-02T15:29:51.710Z"}

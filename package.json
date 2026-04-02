@@ -5,13 +5,13 @@
   "type": "module",
   "main": "index.js",
   "imports": {
-    "#config/*": "./src/config/*",
-    "#controllers/*": "./src/controllers/*",
-    "#models/*": "./src/models/*",
-    "#routes/*": "./src/routes/*",
-    "#services/*": "./src/services/*",
-    "#utils/*": "./src/utils/*",
-    "#validations/*": "./src/validations/*"
+    "#config/*.js": "./src/config/*.js",
+    "#controllers/*.js": "./src/controllers/*.js",
+    "#models/*.js": "./src/models/*.js",
+    "#routes/*.js": "./src/routes/*.js",
+    "#services/*.js": "./src/services/*.js",
+    "#utils/*.js": "./src/utils/*.js",
+    "#validations/*.js": "./src/validations/*.js"
   },
   "scripts": {
     "dev": "node --watch src/index.js",
@@ -36,6 +36,7 @@
   "homepage": "https://github.com/oscarocana/acquisitions#readme",
   "dependencies": {
     "@neondatabase/serverless": "^1.0.2",
+    "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",
     "dotenv": "^17.4.0",
@@ -44,7 +45,8 @@
     "helmet": "^8.1.0",
     "jsonwebtoken": "^9.0.3",
     "morgan": "^1.10.1",
-    "winston": "^3.19.0"
+    "winston": "^3.19.0",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",

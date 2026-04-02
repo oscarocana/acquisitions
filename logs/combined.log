@@ -8,3 +8,10 @@
 {"level":"info","message":"::1 - - [02/Apr/2026:13:14:05 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2026-04-02T13:14:05.828Z"}
 {"level":"info","message":"::1 - - [02/Apr/2026:13:14:24 +0000] \"POST /api/auth.sign-in HTTP/1.1\" 404 156 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2026-04-02T13:14:24.367Z"}
 {"level":"info","message":"::1 - - [02/Apr/2026:13:14:35 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2026-04-02T13:14:35.907Z"}
+{"level":"info","message":"::1 - - [02/Apr/2026:13:48:08 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2026-04-02T13:48:08.219Z"}
+{"level":"info","message":"::1 - - [02/Apr/2026:14:04:34 +0000] \"POST / HTTP/1.1\" 404 140 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2026-04-02T14:04:34.814Z"}
+{"level":"info","message":"::1 - - [02/Apr/2026:14:04:55 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2026-04-02T14:04:55.624Z"}
+{"level":"info","message":"::1 - - [02/Apr/2026:14:58:21 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2026-04-02T14:58:21.678Z"}
+{"level":"info","message":"::1 - - [02/Apr/2026:14:58:22 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2026-04-02T14:58:22.252Z"}
+{"level":"info","message":"::1 - - [02/Apr/2026:15:07:05 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2026-04-02T15:07:05.511Z"}
+{"level":"info","message":"::1 - - [02/Apr/2026:15:29:28 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2026-04-02T15:29:28.788Z"}

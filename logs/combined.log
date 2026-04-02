@@ -1,2 +1,10 @@
 {"level":"info","message":"Received a request to the root endpoint","service":"aquisitions-api","timestamp":"2026-04-02T12:38:23.404Z"}
 {"level":"info","message":"::1 - - [02/Apr/2026:12:38:23 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"aquisitions-api","timestamp":"2026-04-02T12:38:23.418Z"}
+{"level":"info","message":"Received a request to the root endpoint","service":"aquisitions-api","timestamp":"2026-04-02T12:49:41.616Z"}
+{"level":"info","message":"::1 - - [02/Apr/2026:12:49:41 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"aquisitions-api","timestamp":"2026-04-02T12:49:41.630Z"}
+{"level":"info","message":"Received a request to the root endpoint","service":"aquisitions-api","timestamp":"2026-04-02T13:13:41.001Z"}
+{"level":"info","message":"::1 - - [02/Apr/2026:13:13:41 +0000] \"GET / HTTP/1.1\" 200 28 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2026-04-02T13:13:41.003Z"}
+{"level":"info","message":"::1 - - [02/Apr/2026:13:13:55 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2026-04-02T13:13:55.482Z"}
+{"level":"info","message":"::1 - - [02/Apr/2026:13:14:05 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2026-04-02T13:14:05.828Z"}
+{"level":"info","message":"::1 - - [02/Apr/2026:13:14:24 +0000] \"POST /api/auth.sign-in HTTP/1.1\" 404 156 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2026-04-02T13:14:24.367Z"}
+{"level":"info","message":"::1 - - [02/Apr/2026:13:14:35 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"aquisitions-api","timestamp":"2026-04-02T13:14:35.907Z"}
